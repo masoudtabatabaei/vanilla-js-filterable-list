@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.font12 {
+    font-size: 1.2rem;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.collection {
+    margin: 20px auto;
+}
+
+.collection li {
+    list-style-type: none;
+}
+
+.collection_header {
+    font-size: 2rem;
+    margin: 16px 0 6px;
+}
+
+.collection_item a {
+    font-size: 1.1rem;
+}
+
+.collection_item {
+    margin-bottom: 5px;
+}
+
+#filterInput {
+    display: block;
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+    border: 1px solid #aaa;
+}
+
+#filterInput:focus {
+    outline: none !important;
+    border:1px solid #aaa;
+}
